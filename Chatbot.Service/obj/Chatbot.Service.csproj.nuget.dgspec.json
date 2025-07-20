@@ -1,0 +1,403 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Service\\Chatbot.Service.csproj": {}
+  },
+  "projects": {
+    "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.DTOs\\Chatbot.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.DTOs\\Chatbot.DTO.csproj",
+        "projectName": "Chatbot.DTO",
+        "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.DTOs\\Chatbot.DTO.csproj",
+        "packagesPath": "C:\\Users\\Abdelkhalek\\.nuget\\packages\\",
+        "outputPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abdelkhalek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj": {
+                "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Repository\\Chatbot.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Repository\\Chatbot.Repository.csproj",
+        "projectName": "Chatbot.Repository",
+        "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Repository\\Chatbot.Repository.csproj",
+        "packagesPath": "C:\\Users\\Abdelkhalek\\.nuget\\packages\\",
+        "outputPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abdelkhalek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Data\\Chatbot.Data.csproj": {
+                "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Data\\Chatbot.Data.csproj"
+              },
+              "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj": {
+                "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Service\\Chatbot.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Service\\Chatbot.Service.csproj",
+        "projectName": "Chatbot.Service",
+        "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Service\\Chatbot.Service.csproj",
+        "packagesPath": "C:\\Users\\Abdelkhalek\\.nuget\\packages\\",
+        "outputPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abdelkhalek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.DTOs\\Chatbot.DTO.csproj": {
+                "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.DTOs\\Chatbot.DTO.csproj"
+              },
+              "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Repository\\Chatbot.Repository.csproj": {
+                "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Chatbot.Repository\\Chatbot.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Data\\Chatbot.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Data\\Chatbot.Data.csproj",
+        "projectName": "Chatbot.Data",
+        "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Data\\Chatbot.Data.csproj",
+        "packagesPath": "C:\\Users\\Abdelkhalek\\.nuget\\packages\\",
+        "outputPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abdelkhalek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj": {
+                "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj",
+        "projectName": "Chatbot.Models",
+        "projectPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\Chatbot.Models.csproj",
+        "packagesPath": "C:\\Users\\Abdelkhalek\\.nuget\\packages\\",
+        "outputPath": "D:\\New ITI 9month\\Self Training\\chatbot\\Chatbot\\InvoiceChatbotSolution\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abdelkhalek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

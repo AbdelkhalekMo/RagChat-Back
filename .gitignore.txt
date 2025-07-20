@@ -1,0 +1,75 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosf
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.log
+*.pdb
+*.ilk
+*.aps
+*.bsc
+*.sbr
+*.ncb
+*.pch
+*.idl
+*.exp
+*.lib
+*.opt
+*.res
+*.ipch
+*.testsettings
+*.resx
+*.dbmdl
+
+# NuGet packages
+packages/
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+*.cache
+*.targets
+*.props
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+
+# Rider
+.idea/
+
+# Node.js and npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Compiled output
+dist/
+build/
+tmp/
+
+# macOS specific (if you are on macOS)
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Any other large or generated files
+*.zip
+*.tar
+*.gz
